@@ -1,0 +1,40 @@
+.btn {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+
+  &-primary {
+    background: linear-gradient(to right, #f6f6f6, #d2d3d3);
+    color: $color-secondary;
+    border: 1px solid #d2d3d3;
+  }
+
+  &-secondary {
+    background: linear-gradient(
+      90.03deg,
+      #797a7b -1.13%,
+      #1f2223 48.45%,
+      #1f2223 99.98%
+    );
+    border: 1px solid #1f2223;
+    color: $color-primary;
+  }
+
+  &-tertiary {
+    background: linear-gradient(90deg, #eaeaea 0%, #b1b2b2 100%);
+    border: 1px solid #d2d3d3;
+    color: $color-secondary;
+  }
+}
+
+.btn-sm {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 0.6rem;
+}
+
+.button-box {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}

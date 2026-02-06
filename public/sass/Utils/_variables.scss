@@ -1,0 +1,28 @@
+$breakpoints: (
+  xs: 360px,
+  smd: 400px,
+  sm: 480px,
+  mds: 608px,
+  mdm: 650px,
+  md: 768px,
+  mdl: 880px,
+  mdxl: 950px,
+  lg: 1024px,
+  lg1: 1025px,
+  xl: 1280px,
+  xxl: 1440px,
+  xxxl: 2000px,
+);
+
+$font-text: "Plus Jakarta Sans";
+
+////colours
+$color-primary: #f1f1f1;
+$color-black: #1f2223;
+$color-secondary: #23120b;
+$color-grey-light: #706e6e;
+$color-grey-lighter: #a3a3a3;
+$color-grey-lightest: #d2d3d3;
+$color-grey: #57595a;
+$color-grey-dark: #363939;
+$color-accent: #fdb827;

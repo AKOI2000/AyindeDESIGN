@@ -1,0 +1,33 @@
+.navbar-container {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 2rem;
+  background-color: rgba($color-primary, 0.3);
+  border: 1px solid rgba($color-secondary, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2),
+    inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  padding: 1.5rem 1rem;
+  z-index: 4000;
+  min-width: 70%;
+
+  backdrop-filter: url(#jelly-backdrop) blur(1px) saturate(120%);
+  -webkit-backdrop-filter: url(#jelly-backdrop) blur(1px) saturate(120%);
+
+  .navbar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+.svg-filter {
+  position: absolute;
+  width: 0;
+  height: 0;
+}

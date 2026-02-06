@@ -1,0 +1,33 @@
+.design-process {
+  &-item {
+    background-color: $color-grey-lightest;
+    border-radius: 1.2rem;
+    padding: 1.5rem 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    gap: 1rem;
+    p {
+      color: $color-grey-dark;
+    }
+
+    h3 {
+      font-size: 3rem;
+
+      @include respond(mds) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  &-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    // margin-bottom: 1rem;
+
+    svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+}

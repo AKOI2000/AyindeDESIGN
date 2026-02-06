@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+    *, ::before, ::after {
+      /* box-sizing: content-box; if Tailwind border-box broke layout */
+    }
+  
+    body {
+      margin: revert;
+      font-family: revert;
+      line-height: revert;
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-size: revert;
+      font-weight: revert;
+      margin: revert;
+    }
+  
+    p {
+      margin: revert;
+    }
+  
+    button, input, textarea, select {
+      all: revert;
+    }
+  
+    ul, ol {
+      list-style: revert;
+      margin: revert;
+      padding: revert;
+    }
+  }
+  
+
+@layer components {
+  .container {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+}

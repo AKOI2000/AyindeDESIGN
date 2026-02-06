@@ -1,0 +1,16 @@
+.skill-lists {
+  padding: 0 3rem;
+  .skill-item {
+    width: 142px;
+    height: 142px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    background-color: #d2d3d3;
+    border: 1px solid rgba($color-grey-light, 0.6);
+    color: $color-grey-dark;
+  }
+}

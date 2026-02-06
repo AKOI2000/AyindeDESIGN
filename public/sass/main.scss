@@ -1,0 +1,22 @@
+@import "./Utils/mixin";
+@import "./Utils/variables";
+
+@import "./Base/reset";
+@import "./Base/typography";
+@import "./Base/fontfacetype";
+
+@import "./Components/buttons";
+@import "./Components/footer";
+@import "./Components/navbar";
+@import "./Components/skillList";
+@import "./Components/hoverExpand";
+@import "./Components/contact";
+
+@import "./Layout/container";
+@import "./Layout/grid";
+
+@import "./Pages/Home/hero";
+@import "./Pages/Home/about-section";
+@import "./Pages/Home/workSection";
+@import "./Pages/Home/testimonial";
+@import "./Pages/Home/design-process";

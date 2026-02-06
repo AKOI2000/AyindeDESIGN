@@ -1,0 +1,24 @@
+.testimonial {
+  &-list {
+    display: none;
+    @include respond(md) {
+      display: block;
+    }
+
+    .img-box {
+      height: 30dvh;
+      min-width: 95%;
+      max-width: 100%;
+
+      @include respond(mds) {
+        height: 35dvh;
+      }
+    }
+
+    .col-2-by-1 {
+      @include respond(mds) {
+        gap: 6rem;
+      }
+    }
+  }
+}
