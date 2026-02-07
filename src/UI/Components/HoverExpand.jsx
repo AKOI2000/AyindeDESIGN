@@ -15,7 +15,7 @@ function HoverExpand() {
             onClick={() => setActive(index)}
             onMouseOver={() => setActive(index)}
             animate={{
-              flexGrow: index === active ? 1.8 : 1,
+              flexGrow: index === active ? 2.5 : 1,
             }}
             transition={{
               type: "spring",
@@ -27,7 +27,7 @@ function HoverExpand() {
             <div className="img-box">
               <motion.img
                 src={item.img}
-                animate={{ scale: index === active ? 1 : 1.3 }}
+                animate={{ scale: index === active ? 1 : 1.25 }}
                 transition={{ duration: 0.4 }}
               />
             </div>
@@ -107,22 +107,22 @@ export default HoverExpand;
 
 const testimonialData = [
   {
-    img: "/public/Images/Testimonial-1.jpg",
+    img: "/Images/Testimonial-1.jpg",
     name: "Sarah Chen",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, corporis repellat. Quidem facilis architecto minus similique. Rerum illum quo maiores possimus laboriosam veniam vero obcaecati magni ut, deleniti omnis quis!",
   },
   {
-    img: "/public/Images/Testimonial-2.jpg",
+    img: "/Images/testimonial-2.jpg",
     name: "James Kim",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, corporis repellat. Quidem facilis architecto minus similique. Rerum illum quo maiores possimus laboriosam veniam vero obcaecati magni ut, deleniti omnis quis!",
   },
   {
-    img: "/public/Images/Testimonial-3.jpg",
+    img: "/Images/testimonial-3.jpg",
     name: "Michael Rodriguez",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, corporis repellat. Quidem facilis architecto minus similique. Rerum illum quo maiores possimus laboriosam veniam vero obcaecati magni ut, deleniti omnis quis!",
   },
   {
-    img: "/public/Images/Testimonial-4.jpg",
+    img: "/Images/Testimonial-4.jpg",
     name: "Emily Watson",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, corporis repellat. Quidem facilis architecto minus similique. Rerum illum quo maiores possimus laboriosam veniam vero obcaecati magni ut, deleniti omnis quis!",
   },

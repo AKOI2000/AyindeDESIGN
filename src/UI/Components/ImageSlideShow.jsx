@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "motion/react";
 
 function ImageSlideShow({ images, index, alt = "Ayinde Taiwo Courage" }) {
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="sync">
       <motion.img
         alt={alt}
         key={index}
